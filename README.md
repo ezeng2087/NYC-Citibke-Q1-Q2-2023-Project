@@ -26,12 +26,13 @@ This [dataset](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r) 
 # Excel
 
 Importing the 6 separate files into a single, consolidated file,Citibike data.csv
-- JC-202301-citibike-tripdata
-- JC-202302-citibike-tripdata
-- JC-202303-citibike-tripdata
-- JC-202304-citibike-tripdata
-- JC-202305-citibike-tripdata
-- JC-202306-citibike-tripdata
+** All files are data from 2023
+January - JC-202301-citibike-tripdata
+Febuary - JC-202302-citibike-tripdata
+March - JC-202303-citibike-tripdata
+April - JC-202304-citibike-tripdata
+May - JC-202305-citibike-tripdata
+June - JC-202306-citibike-tripdata
 
 Checking if there is any duplicated values within the Unique identifier(ride_id)
 
