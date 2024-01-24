@@ -126,5 +126,5 @@ Fields after connection made with final_citibike.csv
 | Tripduration           | final_citibike.csv | tripduration      |
 | Bike Type              | final_citibike.csv | bike_type         |
 
-
+[View the Tableau Public Dashboard](https://public.tableau.com/views/FinalCitibike/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 
