@@ -23,6 +23,8 @@ This [dataset](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r) 
 | `end_lng`           | Longitude of the ending location.               |
 | `member_casual`     | Indicates if the rider is a member or casual. 
 
+# Excel
+
 Importing the 6 separate files into a single, consolidated file,Citibike data.csv
 - JC-202301-citibike-tripdata
 - JC-202302-citibike-tripdata
@@ -42,7 +44,7 @@ Checking if there is any blank cells within the dataset
 
 
 
-
+# PostgreSQL
 
 Creating a table within PostgreSQL, matching the structure of the data above.
 ```
@@ -100,3 +102,29 @@ SET bike_type =
     ELSE 'Unknown'
   END;
 ```
+
+# Tableau
+
+Fields after connection made with final_citibike.csv
+
+| Field Name             | Physical Table     | Remote Field Name |
+|------------------------|--------------------|-------------------|
+| Ride Id                | final_citibike.csv | ride_id           |
+| Rideable Type          | final_citibike.csv | rideable_type     |
+| Started At             | final_citibike.csv | started_at        |
+| Ended At               | final_citibike.csv | ended_at          |
+| Start Station Name     | final_citibike.csv | start_station_name|
+| Start Station Id       | final_citibike.csv | start_station_id  |
+| End Station Name       | final_citibike.csv | end_station_name  |
+| End Station Id         | final_citibike.csv | end_station_id    |
+| Start Station Latitude | final_citibike.csv | start_lat         |
+| Start Station Longitude| final_citibike.csv | start_lng         |
+| End Station Latitude   | final_citibike.csv | end_lat           |
+| End Station Longitude  | final_citibike.csv | end_lng           |
+| Member Casual          | final_citibike.csv | member_casual     |
+| Member Type            | final_citibike.csv | member_type       |
+| Tripduration           | final_citibike.csv | tripduration      |
+| Bike Type              | final_citibike.csv | bike_type         |
+
+
+
