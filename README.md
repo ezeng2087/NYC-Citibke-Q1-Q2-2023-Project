@@ -2,7 +2,23 @@
 
 ## Description
 
-This [dataset](https://data.cityofnewyork.us/Environment/Air-Quality/c3uy-2p5r) provides information related to air quality, including various indicators measured across different geographic areas and time periods within NYC.
+This [dataset](https://citibikenyc.com/system-data) provides information related to Citi bike data, including various indicators measured across different geographic areas and time periods within NYC.
+
+## Objective
+Come up with a Citibike dashboard that does the following:
+
+1. Total % of customers stratified by
+   
+a) **Popular Start Stations** 
+
+b) **Popular End Stations**
+
+c) **Count of Members per day(Regular/Casual)**
+
+d) ***Count of Members per month(Regular/Casual)**
+
+e) **Average Trip Duration**
+
 
 ### Columns
 
