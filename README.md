@@ -15,7 +15,7 @@ b) **Popular End Stations**
 
 c) **Count of Members per day(Regular/Casual)**
 
-d) ***Count of Members per month(Regular/Casual)**
+d) **Count of Members per month(Regular/Casual)**
 
 e) **Average Trip Duration**
 
